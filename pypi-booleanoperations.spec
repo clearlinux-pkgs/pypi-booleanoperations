@@ -4,7 +4,7 @@
 #
 Name     : pypi-booleanoperations
 Version  : 0.9.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/57/d9/9eae7bc4ba3a38ab7426522fb08e12df54aec27595d7bcd1bc0670aec873/booleanOperations-0.9.0.zip
 Source0  : https://files.pythonhosted.org/packages/57/d9/9eae7bc4ba3a38ab7426522fb08e12df54aec27595d7bcd1bc0670aec873/booleanOperations-0.9.0.zip
 Summary  : Boolean operations on paths.
@@ -14,16 +14,16 @@ Requires: pypi-booleanoperations-license = %{version}-%{release}
 Requires: pypi-booleanoperations-python = %{version}-%{release}
 Requires: pypi-booleanoperations-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
 BuildRequires : pypi(fonttools)
+BuildRequires : pypi(py)
 BuildRequires : pypi(pyclipper)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(wheel)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 BooleanOperations
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640194711
+export SOURCE_DATE_EPOCH=1649692902
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
