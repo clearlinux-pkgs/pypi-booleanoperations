@@ -4,7 +4,7 @@
 #
 Name     : pypi-booleanoperations
 Version  : 0.9.0
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/57/d9/9eae7bc4ba3a38ab7426522fb08e12df54aec27595d7bcd1bc0670aec873/booleanOperations-0.9.0.zip
 Source0  : https://files.pythonhosted.org/packages/57/d9/9eae7bc4ba3a38ab7426522fb08e12df54aec27595d7bcd1bc0670aec873/booleanOperations-0.9.0.zip
 Summary  : Boolean operations on paths.
